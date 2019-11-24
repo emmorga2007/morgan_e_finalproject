@@ -1,11 +1,11 @@
-# The Spoookiest Website for Paralocal Built by Emily Morgan 
+# The Spoookiest Website, "Paralocal", Built by Emily Morgan 
 <!-- Include some images -->
 
 Welcome!!
 
 Here we have the website build for a fabulously Spooky site called 'PARALOCAL', as in the paranormal found locally. The existence of ghosts can be debated, but the validity and awesomeness of this website cannot. lol. enjoy! 
 
-  
+
 
 ## Requirements  
 
