@@ -1,2 +1,1 @@
-# morgan_e_finalproject
-IDP final integrated project
+# The Spoookiest Website for Paralocal Built by Emily Morgan
