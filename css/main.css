@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#siteContainer{
+	background-color: #252525;
+}
+
+/*Header start */
+#headerlogo{
+	background-color: black;
+}
+
+.headerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Header close */
+
+/* main nav start */
+nav {
+	font-family: "Segoe UI Light", sans-serif;
+	font-size: 22px;
+	color: #333;
+	text-align: center;
+}
+
+#mainNav ul {
+  list-style-type: none;
+  display: inline-flex;
+  background-color: none;
+  text-align: center;
+}
+
+
+#mainNav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+#mainNav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+#mainNav a.active {
+  background-color: none;
+  color: #6abc45;
+}
+
+/* main nav close */
+
+body {
+	font-family: "Segoe UI Light", sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+.spacebar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
