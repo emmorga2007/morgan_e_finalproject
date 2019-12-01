@@ -1,5 +1,5 @@
 # The Spoookiest Website, "Paralocal", Built by Emily Morgan 
-<!-- Include some images -->
+<img src="images/jpegs/header_candle.jpg" alt="candle image">
 
 Welcome!!
 
