@@ -67,3 +67,61 @@ body {
   margin-right: auto;
   width: 50%;
 }
+/* main nav close*/
+
+/*Homepage open */
+
+#promoText{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("file:///C:/Users/emily/Documents/morgan_e_finalproject/images/homepage/strech_tree.png");
+  background-color: gray;
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+.boxtitle {/* the default for span */
+  text-align: right;
+  column-width: 200px;
+  border: 5px solid white;
+  word-wrap: normal;
+  text-align: left;
+  padding-left: 10px;
+  width: 200px;
+  height: 200px;
+  }
+
+
+.boxtext{
+  font-size: 20px;
+  word-wrap:normal;
+  width:400px;
+  height: 200px;
+  margin-left: 40px;
+}
+
+
+#productInfo {
+  display:flex;
+  flex-direction: row;
+  justify-content: 
+  margin-top: 20px;
+}
+
+#promo{
+
+}
+
+/*Homepage close*/
+
+/*Hunated grounds open */
+/*Haunted grounds close*/
+
+/*contact open */
+/*contact close*/
+
+/*footer open*/
+/*footer close*/
