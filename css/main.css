@@ -67,3 +67,113 @@ body {
   margin-right: auto;
   width: 50%;
 }
+/* main nav close*/
+
+/*Homepage open */
+
+#promoText{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("file:///C:/Users/emily/Documents/morgan_e_finalproject/images/homepage/strech_tree.png");
+  height: 400px; 
+  width: 600px;
+  width:auto;
+  background-position: center; 
+  background-repeat: no-repeat;  
+}
+
+.boxtitle {
+  font-size: 28px;
+  text-align: right;
+  column-width: 200px;
+  border: 5px solid white;
+  word-wrap: normal;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 230px;
+  height: 230px;
+  margin-top: 90px;
+  }
+
+
+.boxtext{
+  font-size: 20px;
+  word-wrap:normal;
+  width:400px;
+  height: 200px;
+  margin-left: 40px;
+  margin-top: 110px;
+}
+
+/*homepage open*/
+
+
+#productInfo {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.imgwtitle h3 {
+   color: #6abc45;
+   display:inline-block;
+   font-size: 23px;
+   word-wrap:normal;
+   height:10px;
+   width:100px;
+   margin-left: 20px;
+}
+
+.producttext p {
+  width: 300px;
+  height: 300px;
+
+}
+
+
+
+/*Homepage close*/
+
+/*Hunated grounds open */
+/*Haunted grounds close*/
+
+/*contact open */
+/*contact close*/
+
+/*footer open*/
+
+
+#footerNav nav{
+  font-family: "Segoe UI Light", sans-serif;
+  font-size: 22px;
+  color: #333;
+  text-align: left;
+  width: 600px;
+}
+
+#footerNav ul {
+  list-style-type: none;
+  display: inline-flex;
+  background-color: none;
+  text-align: left;
+}
+
+#footerNav li a {
+  display: block;
+  color: white;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+
+#footerNav a.active {
+  background-color: none;
+  color: #6abc45;
+}
+
+
+
+
+/*footer close*/
