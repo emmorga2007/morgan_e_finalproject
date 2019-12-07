@@ -1,6 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+margin: 0; 
+padding: 0; 
+} 
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+
+.hidden{
+  display:none;
+}
+
 #siteContainer{
 	background-color: #252525;
 }
@@ -107,14 +123,23 @@ body {
   margin-top: 110px;
 }
 
+.colorword{
+  color: #6abc45;
+}
+
 /*homepage open*/
 
-
-#productInfo {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
+#productCon {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 40px;
 }
+
+
 
 .imgwtitle h3 {
    color: #6abc45;
@@ -127,19 +152,90 @@ body {
 }
 
 .producttext p {
+  text-indent: 50px;
   width: 300px;
-  height: 300px;
+  padding-top: 20px;
+}
+/*Homepage close*/
 
+/*Hunated grounds open */
+
+#contentCon {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+#content img {
+  padding-right: : 10px;
+}
+
+#contentCon h4 {
+  color: #6abc45;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#contentCon p {
+  text-indent: 50px;
+}
+
+#content {
+  width: 550px;
+  margin-bottom: 40px;
+  padding: 40px;
+  background-color: #0a0700;
+}
+
+/*Haunted grounds close*/
+
+/*contact open */
+
+#hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#AboutCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.rightsideCon {
+  width: 500px;
+  display: block;
+  padding: 20px; 
+  margin-right: 150px;
+}
+
+.rightsideCon p {
+  margin-top: 40px;
+  width: 500px;
+  font-size: 20px;
+}
+
+.leftsideCon {
+  width: 500px;
+  display: block;
+  padding: 20px;
+  margin-left:150px;
 }
 
 
 
-/*Homepage close*/
 
-/*Hunated grounds open */
-/*Haunted grounds close*/
 
-/*contact open */
 /*contact close*/
 
 /*footer open*/
@@ -171,6 +267,17 @@ body {
 #footerNav a.active {
   background-color: none;
   color: #6abc45;
+}
+
+#footerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footercopyright{
+  margin-top:30px;
+  margin-right: 40px;
 }
 
 
