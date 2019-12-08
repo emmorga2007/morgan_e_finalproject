@@ -122,6 +122,7 @@ body {
 
 
 .boxtext{
+  text-indent: 50px;
   font-size: 20px;
   word-wrap:normal;
   width:400px;
@@ -143,14 +144,15 @@ body {
   flex-direction: block;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 40px;
+  margin-right:100px;
+  margin-left: 100px;
 }
 
 
 .imgwtitle h3 {
   color: #6abc45;
   display:inline-block;
-  font-size: 23px;
+  font-size: 27px;
   word-wrap:normal;
   height:10px;
   width:100px;
@@ -221,6 +223,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  margin-bottom: 20px;
+}
+
+#hero {
+
 }
 
 #AboutCon {
@@ -243,11 +250,12 @@ body {
   color: #6abc45;
   margin-top: 20px;
   font-size: 30px;
+  margin-bottom: 20px;
 
 }
 
 .rightsideCon p {
-  margin-top: 40px;
+  text-indent: 50px;
   width: 500px;
   font-size: 20px;
 }
