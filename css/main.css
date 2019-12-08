@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Global Open */
+
 div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
 margin: 0; 
 padding: 0; 
@@ -12,7 +14,6 @@ margin: 0;
 padding: 0; 
 }
 
-
 .hidden{
   display:none;
 }
@@ -20,6 +21,8 @@ padding: 0;
 #siteContainer{
 	background-color: #252525;
 }
+
+/* Global End */
 
 /*Header start */
 #headerlogo{
@@ -31,7 +34,6 @@ padding: 0;
   margin-left: auto;
   margin-right: auto;
 }
-/*Header close */
 
 /* main nav start */
 nav {
@@ -57,13 +59,11 @@ nav {
   text-decoration: none;
 }
 
-/* Change the color of links on hover */
 #mainNav a:hover {
   background-color: black;
   color: white;
 }
 
-/* Add a color to the active/current link */
 #mainNav a.active {
   background-color: none;
   color: #6abc45;
@@ -82,21 +82,28 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-bottom: 70px;
 }
-/* main nav close*/
 
-/*Homepage open */
+/*Header close */
+
+
+/*Homepage Open */
+/*Hero Image Open*/
 
 #promoText{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 100px;
   background-image: url("file:///C:/Users/emily/Documents/morgan_e_finalproject/images/homepage/strech_tree.png");
-  height: 400px; 
-  width: 600px;
-  width:auto;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
   background-position: center; 
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat; 
+  margin-top: 50px;
+  margin-bottom: 50px; 
 }
 
 .boxtitle {
@@ -127,7 +134,7 @@ body {
   color: #6abc45;
 }
 
-/*homepage open*/
+/*Hero Image Close*/
 
 #productCon {
   padding-left: 20px;
@@ -140,25 +147,25 @@ body {
 }
 
 
-
 .imgwtitle h3 {
-   color: #6abc45;
-   display:inline-block;
-   font-size: 23px;
-   word-wrap:normal;
-   height:10px;
-   width:100px;
-   margin-left: 20px;
+  color: #6abc45;
+  display:inline-block;
+  font-size: 23px;
+  word-wrap:normal;
+  height:10px;
+  width:100px;
+  margin-left: 20px;
 }
 
 .producttext p {
   text-indent: 50px;
   width: 300px;
   padding-top: 20px;
+  margin-bottom: 100px;
 }
 /*Homepage close*/
 
-/*Hunated grounds open */
+/*Hunated Grounds Open */
 
 #contentCon {
   padding-left: 20px;
@@ -225,6 +232,11 @@ body {
   font-size: 20px;
 }
 
+.leftsideCon h2 {
+  color: #6abc45;
+
+}
+
 .leftsideCon {
   width: 500px;
   display: block;
@@ -232,14 +244,9 @@ body {
   margin-left:150px;
 }
 
-
-
-
-
 /*contact close*/
 
 /*footer open*/
-
 
 #footerNav nav{
   font-family: "Segoe UI Light", sans-serif;
@@ -279,8 +286,5 @@ body {
   margin-top:30px;
   margin-right: 40px;
 }
-
-
-
 
 /*footer close*/
